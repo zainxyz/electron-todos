@@ -1,0 +1,33 @@
+{
+  "author": "Zain Abidi",
+  "bugs": {
+    "url": "https://github.com/zainxyz/electron-todos/issues"
+  },
+  "dependencies": {
+    "electron": "^1.7.10"
+  },
+  "description": "Same old, and gold, TODOs app built with Electron!",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "bootstrap": "^4.0.0-beta.3"
+  },
+  "homepage": "https://github.com/zainxyz/electron-todos#readme",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "name": "electron-todos",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zainxyz/electron-todos.git"
+  },
+  "scripts": {
+    "start": "electron -r babel-register ."
+  },
+  "version": "1.0.0"
+}
